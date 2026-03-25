@@ -13,7 +13,7 @@ export const translate = {
     inMenu: "в меню",
     restart: "еще раз",
     loze: "вы проиграли",
-    win: "вы выйграли",
+    win: "вы победили",
   },
   en: {
     start: "play",
