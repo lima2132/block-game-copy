@@ -1,0 +1,349 @@
+@media (max-width: 1024px) {
+	.container {
+		max-width: 768px;
+	}
+	.form-wrapper {
+		padding: 35px;
+	}
+	.form-title {
+		font-size: 23px;
+		margin-bottom: 0;
+	}
+	.form-field {
+		margin-bottom: 15px;
+	}
+	.form-label__name,
+	.form-label__password {
+		font-size: 28px;
+		display: inline-block;
+		line-height: 1.3;
+	}
+	.form-input__name,
+	.form-input__password {
+		font-size: 22px;
+		padding: 10px 10px 10px 20px;
+		margin: 10px auto 0;
+		line-height: 1.2;
+	}
+	.form-button {
+		margin: 25px auto 0;
+		font-size: 23px;
+	}
+	.input-error__message {
+		font-size: 12px;
+		line-height: 1.2;
+		bottom: -18px;
+	}
+	.menu-list {
+		gap: 30px;
+	}
+	.menu-btn {
+		width: 350px;
+		font-size: 35px;
+	}
+	.game-bar {
+		top: -80px;
+		padding: 10px;
+	}
+	.game-bar__wrap button i {
+		font-size: 23px;
+	}
+	.game-bar__wrap {
+		gap: 15px;
+	}
+	.game-timer {
+		font-size: 17px;
+		top: 1px;
+		right: 27px;
+	}
+	.game-timer__visible {
+		height: 25px;
+	}
+	.game-field {
+		max-width: 600px;
+		padding: 30px;
+		gap: 7px;
+	}
+	.game-field__block {
+		width: 80px;
+		height: 80px;
+		border-radius: 10px;
+	}
+	.modal-wrapper {
+		padding: 40px;
+	}
+	.modal-result,
+	.modal-time {
+		font-size: 40px;
+	}
+	.modal-time__span {
+		font-size: 40px;
+	}
+	.modal-btn__wrapper {
+		margin-top: 90px;
+	}
+	.settings-wrapper {
+		padding: 40px;
+	}
+	.settings-label__range {
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	.settings-btn__back {
+		font-size: 25px;
+		margin: 30px auto 0;
+	}
+	.settings-language__btn {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		max-width: 550px;
+	}
+
+	.menu-list {
+		gap: 25px;
+	}
+	.menu-btn {
+		width: 300px;
+		font-size: 30px;
+	}
+	.menu-btn:hover {
+		padding: 25px;
+	}
+
+	.game-bar {
+		top: -80px;
+		padding: 10px;
+	}
+	.game-bar__wrap button i {
+		font-size: 19px;
+	}
+	.game-bar__wrap {
+		gap: 13px;
+	}
+	.game-timer {
+		font-size: 14px;
+		top: 1px;
+		right: 20px;
+	}
+	.game-timer__visible {
+		height: 20px;
+	}
+	.game-field {
+		max-width: 480px;
+		padding: 26px;
+		gap: 6px;
+	}
+	.game-field__block {
+		width: 65px;
+		height: 65px;
+		border-radius: 10px;
+	}
+
+	.settings-wrapper {
+		padding: 30px;
+		line-height: 1.2;
+	}
+	.settings-input__wrap {
+		margin-bottom: 15px;
+	}
+	.settings-label__range {
+		text-align: center;
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+
+	.settings-btn__back {
+		font-size: 22px;
+		margin: 20px auto 0;
+		padding: 4px 18px;
+	}
+	.settings-language__title {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.settings-language__btn {
+		font-size: 20px;
+	}
+	.modal-wrapper {
+		padding: 30px;
+	}
+	.modal-result,
+	.modal-time {
+		font-size: 30px;
+	}
+	.modal-time__span {
+		font-size: 30px;
+	}
+	.modal-btn__wrapper {
+		margin-top: 70px;
+		font-size: 18px;
+	}
+}
+@media (max-width: 550px) {
+	.container {
+		max-width: 400px;
+		padding: 0 10px;
+	}
+	.form-input__name,
+	.form-input__password {
+		width: 80%;
+	}
+	.menu-list {
+		gap: 25px;
+	}
+	.menu-btn {
+		width: 300px;
+		font-size: 30px;
+	}
+	.menu-btn:hover {
+		padding: 25px;
+	}
+	.game {
+		margin-top: 50px;
+	}
+	.game-bar {
+		top: -100px;
+		width: 95%;
+	}
+	.game-bar__wrap button i {
+		font-size: 19px;
+	}
+	.game-bar__wrap {
+		gap: 13px;
+	}
+	.game-timer {
+		font-size: 20px;
+		top: -35px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.game-timer__group {
+		width: 90%;
+		margin-bottom: 20px;
+	}
+	.game-timer__visible {
+		height: 25px;
+	}
+	.game-field {
+		max-width: 420px;
+		padding: 20px;
+		gap: 6px;
+	}
+	.game-field__block {
+		width: 70px;
+		height: 70px;
+	}
+
+	.modal-wrapper {
+		padding: 30px;
+	}
+
+	.modal-btn__wrapper {
+		margin-top: 70px;
+	}
+	.modal-btn__menu,
+	.modal-btn__restart {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 380px) {
+	.container {
+		max-width: 320px;
+	}
+	.form-button__toggle-modal {
+		font-size: 15px;
+	}
+	.form-wrapper {
+		padding: 30px;
+	}
+	.form-title {
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+
+	.form-label__name,
+	.form-label__password {
+		font-size: 20px;
+	}
+
+	.form-button {
+		margin: 25px auto 0;
+		font-size: 20px;
+	}
+
+	.menu-list {
+		gap: 20px;
+	}
+	.menu-btn {
+		padding: 15px;
+		width: 280px;
+		font-size: 25px;
+		border-radius: 10px;
+	}
+	.menu-btn:hover {
+		padding: 20px;
+	}
+	.game {
+		margin-top: 40px;
+	}
+
+	.game-timer {
+		font-size: 18px;
+	}
+	.game-timer__group {
+		width: 100%;
+		margin-bottom: 20px;
+		border-radius: 9px;
+	}
+	.game-timer__visible {
+		height: 20px;
+	}
+	.game-timer__visible span {
+		border-radius: 4px;
+	}
+	.game-field {
+		gap: 5px;
+	}
+	.game-field__block {
+		width: 60px;
+		height: 60px;
+	}
+
+	.modal-wrapper {
+		padding: 20px;
+	}
+
+	.modal-btn__wrapper {
+		margin-top: 70px;
+	}
+	.modal-btn__menu,
+	.modal-btn__restart {
+		font-size: 20px;
+	}
+	.settings-wrapper {
+		padding: 25px;
+	}
+
+	.settings-label__range {
+		font-size: 20px;
+	}
+
+	.settings-btn__back {
+		font-size: 20px;
+		margin: 20px auto 0;
+		padding: 3px 15px;
+	}
+	.settings-language__title {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	.settings-language__btn {
+		font-size: 17px;
+	}
+}
